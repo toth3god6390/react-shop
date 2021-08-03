@@ -1,0 +1,40 @@
+.section {
+    position: relative;
+    margin-bottom: 65px;
+    height: 317px;
+    background-color: var(--color-light);
+}
+.img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: none;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    opacity: .999;
+}
+.title {
+    margin-bottom: 9px;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-size: 20px;
+    color: var(--color-primary);
+}
+.sale__info {
+    text-transform: uppercase;
+    line-height: 50px;
+    font-size: 46px;
+    font-weight: 500;
+    color: var(--color-dark);
+}
+.decription {
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 28px;
+}

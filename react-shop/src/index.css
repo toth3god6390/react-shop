@@ -1,0 +1,54 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --color-primary: #40A944;
+    --color-dark: #222;
+    --color-dark-light: #333;
+    --color-white: #fff;
+    --color-light: #F4F4F4;
+    --color-border: #EDEDED;
+    --transition-default: all .3s ease;
+    --transition-btn: background-color .3s ease;
+    --transition-slider-control-dot: background-color .3s ease, box-shadow .3s ease;
+    --transition-svg: fill .3s ease;
+    --transition-link: color .3s ease;
+    --transition-menu: opacity .3s ease, transform .3s ease;
+    --transition-btn-more-svg: transform .3s ease, fill .3s ease;
+}
+
+body {
+     font-family: 'Work Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI',  'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    color: var(--color-dark);
+    letter-spacing: 0.02em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-dark);
+    transition: var(--transition-link);
+}
+
+svg path {
+    transition: var(--transition-svg);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* grid */
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}

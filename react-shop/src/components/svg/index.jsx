@@ -1,0 +1,7 @@
+export { Arrow as ArrowSVG } from './Arrow'
+export { Cart as CartSVG } from './Cart'
+export { Magnifier as MagnifierSVG } from './Magnifier'
+export { Heart as HeartSVG } from './Heart'
+export { Sync as SyncSVG } from './Sync'
+export { More as MoreSVG } from './More'
+export { DoubleArrow as DoubleArrowSVG } from './DoubleArrow'
